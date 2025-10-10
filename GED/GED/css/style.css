@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Kastroz';
+    src: url(font/Kastroz-0v5G9.otf);
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.5, ), rgba(255, ));
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Kastroz';
+    font-size: 3em;
+    background: linear-gradient(to right, #C0C0C0, #E0E0E0);
+    -webkit-background-clip: text;
+    color: transparent;
+    Text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
+}
+
+.navi {
+    text-align: center;
+    word-spacing: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.lien:hover {
+    background-color: rgb(107, 64, 9);
+}
+
+.lien {
+
+    margin: 0 15px;
+
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-attachment: fixed;
+    background-image: url(images/bglloyd.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #701a1acc;
+    filter: blur(6px);
+    margin: 0;
+}
+
+footer {
+    background-color: transparent;
+}
+
+figcaption {
+    display: none;
+}
